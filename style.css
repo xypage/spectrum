@@ -1,9 +1,16 @@
 html, body, * {
   margin: 0;
   padding: 0;
+  background-color:#444;
+}
+body {
+  display: flex;
+  flex-direction: column;
 }
 canvas {
   display: block;
+  justify-self: center;
+  align-self: center;
 }
 span {
   font-size:2em;
@@ -22,6 +29,7 @@ span {
 }
 .holder {
   display:flex;
+  flex-direction: row;
   margin:0 30px;
   align-content:stretch;
 }
