@@ -40,9 +40,9 @@ function draw() {
   background(150, 250, 244);
 
 
-  let r = map(x, -100, 100, 0, 255);
-  let g = map(y, -100, 100, 0, 255);
-  let b = map(z, -100, 100, 0, 255);
+  let r = map(x, -1000, 1000, 0, 255);
+  let g = map(y, -1000, 1000, 0, 255);
+  let b = map(z, -1000, 1000, 0, 255);
   let c = color(r, g, b);
 
   //axes
@@ -65,7 +65,7 @@ function draw() {
   // pop();
 
   //triangle
-  stroke(255, 255, 255, 100);
+  stroke(255, 255, 255, 200);
   fill(r, g, b, 100);
   //1
   beginShape();
