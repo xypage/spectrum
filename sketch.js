@@ -8,7 +8,7 @@ let z;
 let n;
 
 function setup() {
-  createCanvas(displayHeight - 50, displayHeight - 50, WEBGL);
+  createCanvas(displayHeight - 200, displayHeight - 200, WEBGL);
   n = displayHeight - 150;
   var fov = 60 / 180 * PI;
   var cameraZ = height / 2.0 / tan(fov / 2.0);
